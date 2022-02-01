@@ -11,6 +11,7 @@ import by.epam.jonline_introduction.part05.task03.entity.TypeOfDay;
 public class Main {
 
 	public static void main(String[] args) {
+
 		Calendar calendar = new Calendar(1, 2022);
 		calendar.createCalendarForMonth();
 

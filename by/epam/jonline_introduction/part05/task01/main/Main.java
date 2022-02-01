@@ -11,6 +11,7 @@ import by.epam.jonline_introduction.part05.task01.view.DirectoryView;
 import by.epam.jonline_introduction.part05.task01.view.TextFileView;
 
 public class Main {
+
 	public static void main(String args[]) {
 
 		Directory dir1 = new Directory("dir1");

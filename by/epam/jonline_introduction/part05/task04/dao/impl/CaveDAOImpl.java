@@ -27,7 +27,7 @@ public class CaveDAOImpl implements CaveDAO {
 		List<Treasure> treasureList = new ArrayList<Treasure>();
 		String[] tmpArray;
 
-		try (BufferedReader reader = new BufferedReader(new FileReader("src\\by\\epam\\jonline_introduction\\part05\\task04\\resources\\treasureData.txt"))) {
+		try (BufferedReader reader = new BufferedReader(new FileReader("resources\\treasureData.txt"))) {
 			String tmp;
 			while ((tmp = reader.readLine()) != null) {
 				tmpArray = tmp.split(" ", 2);

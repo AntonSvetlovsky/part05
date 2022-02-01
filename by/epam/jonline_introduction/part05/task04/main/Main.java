@@ -17,13 +17,12 @@
 package by.epam.jonline_introduction.part05.task04.main;
 
 import by.epam.jonline_introduction.part05.task04.view.TreasureView;
-import by.epam.jonline_introduction.part05.task04.view.impl.TreasureViewImpl;
 
 public class Main {
 
 	public static void main(String[] args) {
 
-		TreasureView view = new TreasureViewImpl();
+		TreasureView view = new TreasureView();
 		view.show();
 	}
 
